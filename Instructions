@@ -1,4 +1,4 @@
-Get your free API key from alphavantage.co.  Free is limited to 25 requests per day
+Get your API key from alphavantage.co.  Free is limited to 25 requests per day
 Open a Google Sheets and Put Tickers as the column header for A1
 Put list of Tickers you want to get data about beginning in cell A2
 Open Google Apps Script by going to the Extensions tab in the Sheet you are working in.
