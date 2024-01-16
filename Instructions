@@ -14,4 +14,4 @@ Note that there are many more available values that than the 4 that are listed i
   -> var revenueTTM = data["RevenueTTM"]
     // Return an array of values
   return [industry, sector, dividendYield, dividendDate, revenueTTM];
-Execute your script.  Note that if you have more than 25 tickers to lookup, only the first 25 will have values returned, so it is probably best to start with 1 or 2 tickers while you are putting this together.
+Execute your script.  Note that if you have the free APIKey, only the first 25 will have values returned, so it is probably best to start with 1 or 2 tickers while you are putting this together.
