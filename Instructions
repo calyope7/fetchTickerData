@@ -2,8 +2,8 @@ Get your API key from alphavantage.co.  Free is limited to 25 requests per day
 Open a Google Sheets and Put Tickers as the column header for A1
 Put list of Tickers you want to get data about beginning in cell A2
 Open Google Apps Script by going to the Extensions tab in the Sheet you are working in.
-Delete the place myFunction placeholder and paste code from code.js file in this repo into the window.
-Note that there are many more available values that than the 4 that are listed in the array.  
+Delete the myFunction placeholder and paste code from code.js file in this repo into the window.
+Note that there are many more available values than the 4 that are listed in the array.  
   So, simply go to the url https://www.alphavantage.co/query?function=OVERVIEW&&apikey=yourAPI where the value after symbol= is a ticker (3M in this case) and yourAPI is the key you get when registering with alphavantag.co
   Take a look at all of the values that you want and add the additional fields.  In the below example I am just adding RevenueTTM and marking the new entry with -> for demonstration purposes.  Don't actually use the ->
     // Extract relevant data
