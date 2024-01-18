@@ -23,7 +23,7 @@ function fetchStockDataForList() {
 
   // Loop through each ticker and fetch data
   for (var i = 0; i < tickers.length; i++) {
-    var ticker = tickers[i][0]; // Assuming tickers are in a single column
+    var ticker = tickers[i][0];
     var stockData = StockOverview(ticker);
 
     // Write the data to the sheet starting from column B
