@@ -12,6 +12,7 @@ Note that there are many more available values than the 4 that are listed in the
   var dividendYield = data["DividendYield"];
   var dividendDate = data["DividendDate"];
   -> var revenueTTM = data["RevenueTTM"]
+  You also need to include the variable you created for the added field (revenueTTM in this example) into the return array.
     // Return an array of values
   return [industry, sector, dividendYield, dividendDate, revenueTTM];
 Execute your script.  Note that if you have the free APIKey, only the first 25 will have values returned, so it is probably best to start with 1 or 2 tickers while you are putting this together.
