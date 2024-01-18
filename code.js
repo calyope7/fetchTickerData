@@ -26,7 +26,7 @@ function fetchStockDataForList() {
     var ticker = tickers[i][0];
     var stockData = StockOverview(ticker);
 
-    // Write the data to the sheet starting from column B
+    // Write the data to the sheet starting from B2
     sheet.getRange(i + 2, 2, 1, stockData.length).setValues([stockData]);
   }
 }
